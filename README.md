@@ -76,6 +76,4 @@ http://127.0.0.1:5000
 
 ## 🖼️ Screenshot
 
-_Add a screenshot of your app UI here for best GitHub presentation! For example:_
 
-![App Screenshot](screenshot.png)
