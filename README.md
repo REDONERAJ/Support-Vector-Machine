@@ -1,73 +1,88 @@
-# Flower Species Classifier (SVM + Flask)
+# 🌸 Flower Species Classifier (SVM + Flask)
 
-This project is a web-based machine learning application that predicts the species of a flower (**Setosa**, **Versicolor**, or **Virginica**) using a Support Vector Machine (SVM) Classifier trained on the Iris dataset from `scikit-learn`.
+This project is a web-based machine learning application that predicts the species of a flower (Setosa, Versicolor, or Virginica) using a Support Vector Machine (SVM) Classifier trained on the Iris dataset from scikit-learn.
 
 The app provides a clean, user-friendly form that only requires 4 key flower features as input, each with example placeholder values for ease of use.
 
 ---
 
 ## 🚀 Features
-- Predicts flower species using only 4 user-input numeric features
+
+- Predicts flower species using only 4 numeric input features
 - SVM Classifier trained on the Iris dataset
 - Responsive Flask web interface
-- Example placeholders for user convenience
+- Example placeholders in input fields for user convenience
 
 ---
 
 ## 📂 Project Structure
+
+```
 flower-species-classifier/
 │
-├── app.py                  # Main Flask app
-├── model.py                # Model training script
-├── flower_svm_model.pkl    # Saved SVM classifier model
+├── app.py                   # Main Flask application
+├── model.py                 # Model training script
+├── flower_svm_model.pkl     # Saved SVM classifier model
+├── requirements.txt         # Python dependencies
 ├── templates/
-│   └── index.html          # Web interface template
-├── requirements.txt        # Python dependencies
-└── README.md               # Project documentation
+│   └── index.html           # Web interface template
+└── README.md                # Project documentation
+```
 
 ---
 
 ## 📊 Dataset
 
-Uses the **Iris Dataset** from scikit-learn, which contains measurements of iris flowers from three species:
+This project uses the famous Iris Dataset from scikit-learn, which contains measurements of iris flowers from three species:
+
 - Setosa
 - Versicolor
 - Virginica
 
-The web form collects these 4 features:
-- Sepal Length (cm) *(e.g., 5.1)*
-- Sepal Width (cm) *(e.g., 3.5)*
-- Petal Length (cm) *(e.g., 1.4)*
-- Petal Width (cm) *(e.g., 0.2)*
+The web form collects these 4 features as input:
+
+| Feature           | Example Value |
+|-------------------|---------------|
+| Sepal Length (cm) | 5.1           |
+| Sepal Width (cm)  | 3.5           |
+| Petal Length (cm) | 1.4           |
+| Petal Width (cm)  | 0.2           |
 
 ---
 
 ## 📦 Requirements
-```
-Flask
-scikit-learn
-pandas
-numpy
-joblib
-```
 
-Install all dependencies with:
-```
+- Python 3.x
+- Flask
+- scikit-learn
+- pandas
+- numpy
+- joblib
+
+Install all dependencies using:
+
+```bash
 pip install -r requirements.txt
 ```
 
 ---
 
 ## ▶️ Usage
-1. Train the model (optional, model already included):
-```
+
+1. **Train the model (optional, since model file is included):**
+
+```bash
 python model.py
 ```
-2. Start the Flask app:
-```
+
+2. **Run the Flask app:**
+
+```bash
 python app.py
 ```
-3. Open your browser and go to:
+
+3. **Open your browser and go to:**
+
 ```
 http://127.0.0.1:5000
 ```
@@ -76,4 +91,8 @@ http://127.0.0.1:5000
 
 ## 🖼️ Screenshot
 
+*(Add a screenshot of your web app here to showcase the UI)*
 
+---
+
+Feel free to contribute or raise issues. Happy flower predicting! 🌼
