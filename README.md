@@ -1,4 +1,4 @@
-# 🌸 Flower Species Classifier (SVM + Flask)
+# Flower Species Classifier (SVM + Flask)
 
 This project is a web-based machine learning application that predicts the species of a flower (Setosa, Versicolor, or Virginica) using a Support Vector Machine (SVM) Classifier trained on the Iris dataset from scikit-learn.
 
@@ -6,7 +6,7 @@ The app provides a clean, user-friendly form that only requires 4 key flower fea
 
 ---
 
-## 🚀 Features
+## Features
 
 - Predicts flower species using only 4 numeric input features
 - SVM Classifier trained on the Iris dataset
@@ -15,7 +15,7 @@ The app provides a clean, user-friendly form that only requires 4 key flower fea
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 flower-species-classifier/
@@ -31,7 +31,7 @@ flower-species-classifier/
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 This project uses the famous Iris Dataset from scikit-learn, which contains measurements of iris flowers from three species:
 
@@ -50,7 +50,7 @@ The web form collects these 4 features as input:
 
 ---
 
-## 📦 Requirements
+## Requirements
 
 - Python 3.x
 - Flask
@@ -67,7 +67,7 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ Usage
+## Usage
 
 1. **Train the model (optional, since model file is included):**
 
@@ -89,7 +89,7 @@ http://127.0.0.1:5000
 
 ---
 
-## 🖼️ Screenshot
+## Screenshot
 
 <img width="1366" height="640" alt="Screenshot 2025-08-11 001414" src="https://github.com/user-attachments/assets/ea4a9e73-65fa-428f-83b3-912061b04d98" />
 <img width="1366" height="633" alt="Screenshot 2025-08-11 001442" src="https://github.com/user-attachments/assets/c10a5782-ce7f-4ede-809c-0001f4eed6ad" />
